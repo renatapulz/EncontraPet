@@ -140,6 +140,22 @@ nav ul li a:hover {
   border-radius: 6px;
 }
 
+.ver-mais {
+  display: inline-block;
+  margin-top: 20px;
+  background-color: #48cfcf;
+  color: #0D0D0D;
+  padding: 10px 20px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.ver-mais:hover {
+  background-color: #096868;
+  color: #fff;
+}
+
 #cadastro {
   background-color: #fff;
   padding: 30px;

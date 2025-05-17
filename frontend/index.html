@@ -25,14 +25,57 @@
 
   <section id="sobre">
     <h2> Muito Além de uma Plataforma 🐾 </h2>
+    <p>Segundo o censo do Instituto Pet Brasil (IPB) de 2021, o Brasil é o terceiro país com mais animais domésticos no mundo — ficando atrás apenas da Argentina e do México. Aproximadamente 70% das famílias brasileiras têm ou conhecem alguém que tem um pet. Só os cães estão presentes em 58% dos lares, enquanto os gatos marcam presença em 28%. Estima-se que 34 milhões de domicílios tenham ao menos um cachorro, segundo o IBGE.</p>
+    <p>Todos os anos, milhares de pets se perdem e muitas vezes não conseguem voltar para casa. A EncontraPet nasceu com o propósito de mudar essa realidade.</p>
+    <p>Somos uma plataforma que facilita o reencontro de animais perdidos com seus tutores, utilizando tecnologia, geolocalização e a força da comunidade. Ao cadastrar um pet desaparecido, a plataforma envia alertas para usuários em um raio de 5km, permitindo que todos ajudem nas buscas.</p>
+    <p>Além disso:</p>
+    <ul>
+      <li>Criamos uma rede colaborativa com recompensas para quem ajudar a encontrar os pets;</li>
+      <li>Em breve, você poderá acumular descontos em lojas e petshops parceiros;</li>
+      <li>Estamos desenvolvendo coleiras com QR Code e opção de rastreador, para aumentar as chances de localização rápida.</li>
+    </ul>
+    <p>Neste momento, estamos validando nosso serviço com os primeiros cadastros. Junte-se a nós e faça parte dessa missão!</p>
   </section>
 
   <section id="galeria">
     <h2>Pets que Estão Longe de Casa</h2>
+    <div class="pet-grid" id="petGrid">
+        <!-- Cards de pets inseridos via js -->
+    </div>
   </section>
 
   <section id="cadastro">
     <h2>Cadastrar Animal Perdido</h2>
+    <form id="petForm">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required />
+    
+        <label for="tipo">Tipo (Ex: Cachorro, Gato):</label>
+        <input type="text" id="tipo" name="tipo" required />
+    
+        <label for="idade">Idade:</label>
+        <input type="number" id="idade" name="idade" required />
+    
+        <label for="foto">URL da Foto:</label>
+        <input type="url" id="foto" name="foto" required />
+    
+        <label for="caracteristicas_fisicas">Características Físicas:</label>
+        <textarea id="caracteristicas_fisicas" name="caracteristicas_fisicas" required></textarea>
+    
+        <label for="ultimo_local_visto">Último Local Visto:</label>
+        <input type="text" id="ultimo_local_visto" name="ultimo_local_visto" required />
+    
+        <label for="contato_nome">Nome para Contato:</label>
+        <input type="text" id="contato_nome" name="contato_nome" required />
+    
+        <label for="contato_telefone">Telefone para Contato:</label>
+        <input type="text" id="contato_telefone" name="contato_telefone" required />
+    
+        <label for="recompensa">Recompensa (opcional):</label>
+        <input type="number" id="recompensa" name="recompensa" step="0.01" />
+    
+        <button type="submit">Cadastrar</button>
+      </form>
     </section>
 
   <footer>

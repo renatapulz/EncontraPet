@@ -70,6 +70,38 @@ nav ul li a:hover {
   text-align: center;
 }
 
+#sobre p {
+  text-align: left;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #000D0C;
+  margin-bottom: 10px;
+}
+
+#sobre ul {
+  padding-left: 20px;
+  list-style: none;
+}
+
+#sobre ul li {
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+  position: relative;
+  padding-left: 30px;
+  color: #000D0C;
+}
+
+#sobre ul li::before {
+  content: "✔️";
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+#sobre p:last-of-type {
+  text-align: center;
+}
+
 #galeria {
   padding-bottom: 30px;
   text-align: center;
@@ -77,6 +109,35 @@ nav ul li a:hover {
 
 #galeria h2 {
   padding: 20px 0px;
+}
+
+.pet-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+  justify-content: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.pet-card {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 15px;
+  border-radius: 8px;
+  text-align: center;
+  transition: transform 0.2s;
+}
+
+.pet-card:hover {
+  transform: scale(1.02);
+}
+
+.pet-card img {
+  max-width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 6px;
 }
 
 #cadastro {
@@ -88,6 +149,36 @@ nav ul li a:hover {
 
 #cadastro h2 {
   text-align: center;
+}
+
+form label {
+  display: block;
+  margin-top: 15px;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+form button {
+  display: block;
+  margin: 20px auto 0;
+  padding: 10px 20px;
+  background-color: #48cfcf;
+  color: #0D0D0D;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #096868;
+  color: #fff;
 }
 
 footer {

@@ -98,6 +98,12 @@ nav ul li a:hover {
   top: 0;
 }
 
+#sobre span#porcentagem-encontrados {
+  font-weight: bold;
+  color: #04763b;
+  font-size: 1.2rem;
+}
+
 #sobre p:last-of-type {
   text-align: center;
 }
@@ -138,6 +144,30 @@ nav ul li a:hover {
   height: 200px;
   object-fit: cover;
   border-radius: 6px;
+}
+
+button.sinalizar-encontrado {
+  margin-top: 10px;
+  padding: 8px 15px;
+  background-color: #CEF299;
+  color: #0D0D0D;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button.sinalizar-encontrado:hover {
+  background-color: #BDF26D;
+}
+
+button.encontrado {
+  background-color: gray;
+  color: #fff;
+  cursor: not-allowed;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 4px;
 }
 
 .ver-mais {

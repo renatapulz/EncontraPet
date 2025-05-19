@@ -2,6 +2,10 @@
 
 O **EncontraPet** é uma aplicação web que ajuda a localizar animais de estimação perdidos. A plataforma permite cadastrar animais desaparecidos, visualizar pets encontrados e promover o reencontro por meio do compartilhamento de informações e contatos.
 
+<div align="center">
+  <img width="600" alt="encontraPet-site" src="https://github.com/user-attachments/assets/53290d31-3bd5-40e3-b159-4c07b905458f" />
+</div>
+
 📄 [Clique aqui para acessar o projeto teórico (PDF)](./projeto-teorico.pdf)
 
 ## Tecnologias Utilizadas

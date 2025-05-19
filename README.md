@@ -114,6 +114,12 @@ Abra o arquivo `frontend/index.html` em seu navegador ou utilize uma extensão c
 
 ---
 
+## 🎬 Vídeo demonstrativo: 
+
+https://github.com/user-attachments/assets/9702115c-7b53-475f-b665-3f9f51e1dcdb
+
+---
+
 📝 Projeto desenvolvido para a disciplina PROJETO INTEGRADOR - Senac com foco em integração entre frontend e backend.
 
 ---
